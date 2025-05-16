@@ -168,7 +168,8 @@ function App()
 
 	// Do not alter/remove main div
 	  return (
-    <div id="main">
+    <div id="state-title">
+		<h1>Drop Down</h1>
       {/* State Dropdown */}
       <select id="state" value={selectedState} onChange={handleStateChange}>
         {states.map((state, index) => (
