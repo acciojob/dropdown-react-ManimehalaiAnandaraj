@@ -184,7 +184,7 @@ function App() {
           <option key={index} value={index}>{landmark.name}</option>
         ))}
       </select>
-
+<div id="state-title">
       <div id="state-name">{selectedState.name}</div>
       <div id="state-description">{selectedState.description}</div>
       <div id="city-name">{selectedCity.name}</div>
@@ -192,6 +192,7 @@ function App() {
       <div id="landmark-name">{selectedLandmark.name}</div>
       <div id="landmark-description">{selectedLandmark.description}</div>
     </div>
+	</div>
   );
 }
 
